@@ -11,17 +11,22 @@ This project implements a genetic algorithm to optimize the selection of retail 
 4. Visualization: (If applicable) Implements progress tracking during simulations for better understanding of the optimization process.
 
 ### Code Structure
-1. Retail Store Items Definition
+
+#### 1. Retail Store Items Definition
    
 The items available in the retail store are defined in a dictionary format, where each item has associated properties:
+
 1.1 shelf_space: The space required on the shelf.
 
 1.2 expected_profit: The profit expected from selling the item.
 
-2. Individual Class
+
+
+#### 2. Individual Class
 This class represents an individual solution, which is a combination of items selected for the shelf:
 
 Attributes:
+
 2.1 merch: The dictionary of retail items.
 
 2.2 max_shelf_space: The total shelf space available.
@@ -35,6 +40,7 @@ Attributes:
 2.6 generation: The generation count for tracking evolution.
 
 Methods:
+
 2.1 fitness(): Calculates the fitness of the individual by evaluating the total profit and ensuring it does not exceed the available shelf space.
 
 2.2 crossover(partner): Combines two individuals to produce offspring with mixed item selections.
@@ -44,7 +50,9 @@ Methods:
 2.4 view_shelf(): Displays the items currently selected for the shelf.
 
 
-3. GeneticAlgorithm Class
+
+
+#### 3. GeneticAlgorithm Class
 This class manages the overall optimization process:
 
 Attributes:
@@ -69,7 +77,10 @@ Methods:
 3.1 run_simulation(): Initializes the population and runs the optimization through multiple generations using crossover and mutation.
 
 
-4. RandomAlgorithm Class
+
+
+
+#### 4. RandomAlgorithm Class
 This class provides an alternative method for optimizing item selection through random trials:
 
 Attributes:
