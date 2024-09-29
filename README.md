@@ -1,6 +1,6 @@
 # Retail-Store-Item-Optimization-Using-Genetic-Algorithm
 
-###Overview
+### Overview
 This project implements a genetic algorithm to optimize the selection of retail store items for maximum profit while adhering to shelf space constraints. The optimization process involves simulating various combinations of items and selecting the most profitable configurations. Additionally, a random algorithm is included for comparison purposes.
 
 ###Features
