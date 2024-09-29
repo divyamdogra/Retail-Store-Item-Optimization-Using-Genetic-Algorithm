@@ -3,6 +3,9 @@
 ### Overview
 This project implements a genetic algorithm to optimize the selection of retail store items for maximum profit while adhering to shelf space constraints. The optimization process involves simulating various combinations of items and selecting the most profitable configurations. Additionally, a random algorithm is included for comparison purposes.
 
+![DALL·E 2024-09-29 16 51 52 - A more iterative visual representation of a genetic algorithm in Python  The flowchart should emphasize repetition and cycles, with clear loops showin](https://github.com/user-attachments/assets/fa99a4e3-e7b7-4a11-98d3-71a41b825707)
+
+
 ### Features
 
 1. Item Management: Defines a list of retail store items with their required shelf space and expected profit.
