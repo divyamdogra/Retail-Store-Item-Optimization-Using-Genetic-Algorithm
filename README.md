@@ -52,54 +52,8 @@ Methods:
 
 
 
-#### 3. GeneticAlgorithm Class
-This class manages the overall optimization process:
-
-Attributes:
-
-3.1 population_size: The number of individuals in each generation.
-
-3.2 num_of_generations: The total number of generations to run the simulation.
-
-3.3 mutation_rate: The probability of mutation occurring in offspring.
-
-3.4 max_shelf_space: The maximum shelf space constraint.
-
-3.5 items: The dictionary of retail items.
-
-3.6 best_expected_profit: Tracks the highest profit found across generations.
-
-3.7 best_individuals: Stores the best individuals from each generation.
-
-3.8 population: A list of individuals representing the current generation.
-
-Methods:
-3.1 run_simulation(): Initializes the population and runs the optimization through multiple generations using crossover and mutation.
 
 
-
-
-
-#### 4. RandomAlgorithm Class
-This class provides an alternative method for optimizing item selection through random trials:
-
-Attributes:
-
-4.1 iterations: The number of random combinations to test.
-
-4.2 max_shelf_space: The maximum shelf space constraint.
-
-4.3 items: The dictionary of retail items.
-
-4.4 best_individuals: Stores the best individuals found during random trials.
-
-4.4 best_expected_profit: Tracks the highest profit found through random trials.
-
-
-Methods:
-4.1 run_simulation(): Runs random trials and evaluates each combination's profit.
-
-
-###Requirements
+### Requirements
 Python 3.x
 random and tqdm libraries (for progress tracking)
